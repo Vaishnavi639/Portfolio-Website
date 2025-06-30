@@ -21,7 +21,7 @@ export const Hero: React.FC = () => {
           </p>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
             <div className="bg-white dark:bg-gray-800 p-3 rounded-lg shadow-sm">
-              <div className="text-xs text-gray-500 dark:text-gray-400">
+              <div className="text-xs text-gray-300 dark:text-gray-400">
                 CERTIFICATION
               </div>
               <div className="text-sm font-medium mt-1">
@@ -29,7 +29,7 @@ export const Hero: React.FC = () => {
               </div>
             </div>
             <div className="bg-white dark:bg-gray-800 p-3 rounded-lg shadow-sm">
-              <div className="text-xs text-gray-500 dark:text-gray-400">
+              <div className="text-xs text-gray-300 dark:text-gray-400">
                 PUBLICATIONS
               </div>
               <div className="text-sm font-medium mt-1">
