@@ -1,5 +1,6 @@
 import React from 'react';
 import { ServerIcon, CodeIcon, CloudIcon, ShieldIcon, UsersIcon } from 'lucide-react';
+import profilePhoto from '../assets/profilePhoto.jpeg';
 
 export const About: React.FC = () => {
   return (
@@ -16,10 +17,12 @@ export const About: React.FC = () => {
             <div className="flex justify-center md:justify-start mb-6">
               <div className="relative">
                 <img
-                  src="![Image](https://github.com/user-attachments/assets/f0718960-15b4-4d5f-b69c-e0163affac17)" // Replace with your actual image path
-                  alt="DevOps & Cloud Engineer"
-                  className="w-64 h-80 md:w-72 md:h-96 rounded-2xl object-cover shadow-lg border-2 border-gray-200 dark:border-gray-700"
+                  src={profilePhoto}
+                  alt="Profile"
+                  className="w-[300px] h-[300px] rounded-full mx-auto object-cover border-4 border-white"
                 />
+
+
                 {/* Optional decorative element */}
                 <div className="absolute -bottom-2 -right-2 w-6 h-6 bg-[#2563eb] dark:bg-[#FF9900] rounded-full"></div>
               </div>
