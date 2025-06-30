@@ -3,15 +3,15 @@ import { SkillBadge } from './UI/SkillBadge';
 const skillCategories = [{
   name: 'Cloud Platforms & Infrastructure',
   skills: [{
-    name: 'AWS',
+    name: 'AWS, GCP, Azure',
     level: 90,
     icon: 'aws'
   }, {
-    name: 'GCP',
+    name: ' Cloud Architecture',
     level: 85,
     icon: 'gcp'
   }, {
-    name: 'Azure',
+    name: 'CLoud Deployment',
     level: 75,
     icon: 'azure'
   }, {
@@ -27,7 +27,7 @@ const skillCategories = [{
     level: 85,
     icon: 'aws'
   }, {
-    name: 'CLoud MOnitoring',
+    name: 'CLoud Monitoring',
     level: 90,
     icon: 'aws'
   }, {
@@ -47,7 +47,7 @@ const skillCategories = [{
     level: 75,
     icon: 'gcp'
   }, {
-    name: 'IAM Policies',
+    name: 'Cloud storage',
     level: 85,
     icon: 'gcp'
   }]
@@ -70,7 +70,7 @@ const skillCategories = [{
     level: 90,
     icon: 'github'
   }, {
-    name: 'Shell Scripting',
+    name: 'Docker',
     level: 80,
     icon: 'gitlab'
   }, {
@@ -90,44 +90,13 @@ const skillCategories = [{
     level: 75,
     icon: 'elastic'
   }, {
-    name: 'YAML',
+    name: 'Kubernetes',
     level: 75,
     icon: 'elastic'
   }, {
     name: 'Helm',
     level: 80,
     icon: 'helm'
-  }]
-}, {
-  name: 'Databases and Tools ',
-  skills: [{
-    name: 'Linux( RHEL, Ubuntu)',
-    level: 95,
-    icon: 'linux'
-  }, {
-    name: 'MySQL',
-    level: 90,
-    icon: 'shell'
-  }, {
-    name: 'MongoDB',
-    level: 90,
-    icon: 'bash'
-  }, {
-    name: 'DynamoDB',
-    level: 85,
-    icon: 'python'
-  }, {
-    name: 'Git and GitHub',
-    level: 90,
-    icon: 'yaml'
-  }, {
-    name: 'REST APIs',
-    level: 95,
-    icon: 'git'
-  }, {
-    name: 'Excel',
-    level: 80,
-    icon: 'powershell'
   }]
 }, {
   name: 'Data Science & Machine Learning',
@@ -181,25 +150,72 @@ const skillCategories = [{
     icon: 'compliance'
   }]
 }, {
-  name: 'Containers & Orchestration',
+  name: 'Databases and Version Control',
   skills: [{
-    name: 'Docker ',
+    name: 'MySQL',
+    level: 90,
+    icon: 'shell'
+  }, {
+    name: 'MongoDB',
+    level: 90,
+    icon: 'bash'
+  }, {
+    name: 'DynamoDB',
+    level: 85,
+    icon: 'python'
+  }, {
+    name: 'Git',
+    level: 90,
+    icon: 'yaml'
+  }, {
+    name: ' GitHub',
+    level: 95,
+    icon: 'git'
+  }, {
+    name: 'REST APIs',
+    level: 85,
+    icon: 'numpy'
+  }, {
+    name: 'Agile Methodologies',
+    level: 85,
+    icon: 'numpy'
+  }, {
+    name: 'ETL',
+    level: 85,
+    icon: 'numpy'
+  }]
+}, {
+  name: 'Operating Systems & Scripting',
+  skills: [{
+    name: 'RHEL ',
     level: 75,
     icon: 'tensorflow'
   }, {
-    name: 'Kubernetes',
+    name: 'linux Administration',
     level: 80,
     icon: 'sklearn'
   }, {
-    name: 'Helm',
+    name: 'Ubuntu',
     level: 75,
     icon: 'mlflow'
   }, {
-    name: 'Docker Compose',
+    name: 'Python Scripting',
     level: 85,
     icon: 'pandas'
   }, {
-    name: 'Docker hub',
+    name: 'Shell Scripting',
+    level: 85,
+    icon: 'numpy'
+  }, {
+    name: 'YAML',
+    level: 85,
+    icon: 'numpy'
+  }, {
+    name: 'Groovy',
+    level: 85,
+    icon: 'numpy'
+  }, {
+    name: 'Bash Scripting',
     level: 85,
     icon: 'numpy'
   }]
