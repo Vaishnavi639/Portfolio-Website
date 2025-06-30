@@ -16,7 +16,7 @@ export const About: React.FC = () => {
             <div className="flex justify-center md:justify-start mb-6">
               <div className="relative">
                 <img
-                  src="/path-to-your-photo.jpg" // Replace with your actual image path
+                  src="![Image](https://github.com/user-attachments/assets/f0718960-15b4-4d5f-b69c-e0163affac17)" // Replace with your actual image path
                   alt="DevOps & Cloud Engineer"
                   className="w-64 h-80 md:w-72 md:h-96 rounded-2xl object-cover shadow-lg border-2 border-gray-200 dark:border-gray-700"
                 />
