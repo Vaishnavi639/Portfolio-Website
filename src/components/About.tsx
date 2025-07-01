@@ -4,7 +4,7 @@ import profilePhoto from '../assets/profilePhoto.jpeg';
 
 export const About: React.FC = () => {
   return (
-    <section id="about" className="py-20 bg-white dark:bg-[#1a1a2e]">
+    <section id="about" className="py-20 bg-[rgb(0 0 0 / 28%)] dark:bg-[#1a1a2e]">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row">
           <div className="md:w-1/3 mb-8 md:mb-0">

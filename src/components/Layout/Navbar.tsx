@@ -19,7 +19,7 @@ export const Navbar: React.FC = () => {
     }
     setIsMenuOpen(false);
   };
-  return <nav className="sticky top-0 z-50 bg-white/80 dark:bg-[#1a1a2e]/90 backdrop-blur-md shadow-md">
+  return <nav className="sticky top-0 z-50 bg-[#1de5b5e0]/80 dark:bg-[#129eb3c9]/90 backdrop-blur-md shadow-md">
       <div className="container mx-auto px-4 py-3">
         <div className="flex justify-between items-center">
           <div className="flex items-center">
@@ -49,9 +49,9 @@ export const Navbar: React.FC = () => {
             <button onClick={() => scrollToSection('contact')} className="text-gray-700 dark:text-gray-300 hover:text-[#2563eb] dark:hover:text-[#FF9900] transition-colors">
               Contact
             </button>
-            <button onClick={toggleTheme} className="p-2 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300" aria-label={theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode'}>
+            {/* <button onClick={toggleTheme} className="p-2 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300" aria-label={theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode'}>
               {theme === 'dark' ? <SunIcon size={18} /> : <MoonIcon size={18} />}
-            </button>
+            </button> */}
           </div>
           <div className="md:hidden flex items-center">
             <button onClick={toggleTheme} className="p-2 mr-2 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300" aria-label={theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode'}>

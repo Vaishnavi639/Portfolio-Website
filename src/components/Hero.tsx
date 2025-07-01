@@ -2,7 +2,7 @@ import React from 'react';
 import { CloudIcon, FileTextIcon, BookOpenIcon, ArrowRightIcon } from 'lucide-react';
 import { StatusIndicator } from './UI/StatusIndicator';
 export const Hero: React.FC = () => {
-  return <section className="w-full bg-gradient-to-br from-white to-gray-100 dark:from-[#1a1a2e] dark:to-[#16213e] py-20 md:py-32">
+  return <section className="w-full bg-gradient-to-br from-white to-[#4297d1] dark:from-[#1a1a2e] dark:to-[#16213e] py-20 md:py-32">
     <div className="container mx-auto px-4">
       <div className="flex flex-col md:flex-row items-center">
         <div className="md:w-3/5 md:pr-8">
@@ -24,7 +24,7 @@ export const Hero: React.FC = () => {
               <div className="text-xs text-gray-300 dark:text-gray-400">
                 CERTIFICATION
               </div>
-              <div className="text-sm font-medium mt-1">
+              <div className="text-sm font-medium mt-1" style={{ color: 'rgb(0 255 187)' }}>
                 Google Cloud Certified
               </div>
             </div>
@@ -32,7 +32,7 @@ export const Hero: React.FC = () => {
               <div className="text-xs text-gray-300 dark:text-gray-400">
                 PUBLICATIONS
               </div>
-              <div className="text-sm font-medium mt-1">
+              <div className="text-sm font-medium mt-1" style={{ color: 'rgb(0 255 187)' }}>
                 30+ Technical Articles
               </div>
             </div>
@@ -40,7 +40,7 @@ export const Hero: React.FC = () => {
               <div className="text-xs text-gray-500 dark:text-gray-400">
                 POSITION
               </div>
-              <div className="text-sm font-medium mt-1">
+              <div className="text-sm font-medium mt-1" style={{ color: 'rgb(0 255 187)' }}>
                 Founding Member at Hosteze
               </div>
             </div>
@@ -48,7 +48,7 @@ export const Hero: React.FC = () => {
               <div className="text-xs text-gray-500 dark:text-gray-400">
                 COMMUNITY
               </div>
-              <div className="text-sm font-medium mt-1">AWS & GDG Leader</div>
+              <div className="text-sm font-medium mt-1" style={{ color: 'rgb(0 255 187)' }}>AWS & GDG Leader</div>
             </div>
           </div>
           <div className="flex flex-wrap gap-3">
@@ -90,16 +90,16 @@ export const Hero: React.FC = () => {
         </div>
         <div className="mt-12 md:mt-0 md:w-2/5">
           <div className="relative">
-            <div className="absolute inset-0 bg-gradient-to-r from-[#326CE5]/20 to-[#FF9900]/20 rounded-lg transform rotate-3"></div>
+            <div className="absolute inset-0 bg-gradient-to-r from-[#326CE5]/20 to-[#000000]/20 rounded-lg transform rotate-3"></div>
             <div className="relative bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg">
               <div className="flex items-center justify-between mb-4">
                 <div className="flex items-center">
-                  <CloudIcon size={20} className="text-[#326CE5] dark:text-[#FF9900] mr-2" />
-                  <span className="font-medium">Infrastructure Status</span>
+                  <CloudIcon size={20} className="text-[#326CE5] dark:text-[#FF9900] mr-2" style={{ color: 'rgb(0 255 187)' }}/>
+                  <span className="font-medium" style={{ color: 'rgb(225 225 225)' }}>Infrastructure Status</span>
                 </div>
                 <StatusIndicator status="active" />
               </div>
-              <div className="space-y-4">
+              <div className="space-y-4" style={{ color: 'rgb(225 225 225)' }}>
                 {[{
                   name: 'AWS Production',
                   status: 'active',

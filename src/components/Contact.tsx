@@ -97,7 +97,7 @@ export const Contact: React.FC = () => {
               <a href="https://github.com/Vaishnavi639" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-[#2563eb] dark:hover:bg-[#FF9900] transition-colors">
                 <GithubIcon size={18} className="text-white" />
               </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-[#0077b5] flex items-center justify-center hover:bg-[#2563eb] dark:hover:bg-[#FF9900] transition-colors">
+              <a href="https://www.linkedin.com/in/vaishnavi-pangare/" className="w-10 h-10 rounded-full bg-[#0077b5] flex items-center justify-center hover:bg-[#2563eb] dark:hover:bg-[#FF9900] transition-colors">
                 <LinkedinIcon size={18} className="text-white" />
               </a>
               <a href="https://medium.com/@pangarevaishnavi639" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-black flex items-center justify-center hover:bg-[#2563eb] dark:hover:bg-[#FF9900] transition-colors">
