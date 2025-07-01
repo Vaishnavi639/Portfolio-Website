@@ -62,21 +62,23 @@ export const Hero: React.FC = () => {
                 <span>Download Resume</span>
               </button>
 
-              <div className="absolute left-0 mt-2 hidden group-hover:block bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 border border-gray-300 dark:border-gray-700 rounded-md shadow-lg z-10 min-w-[220px]">
-                <a
-                  href="/VaishnaviPangare-DevOpsCloud-Resume-v32.pdf"
-                  download
-                  className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700"
-                >
-                  🚀 DevOps & Cloud Resume
-                </a>
-                <a
-                  href="/VaishnaviPangare-ML-DataSciemce -Resumev1.pdf"
-                  download
-                  className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700"
-                >
-                  📊 ML / Data Science Resume
-                </a>
+              <div className="absolute left-0 top-full pt-2 hidden group-hover:block z-10">
+                <div className="bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 border border-gray-300 dark:border-gray-700 rounded-md shadow-lg min-w-[220px]">
+                  <a
+                    href="/VaishnaviPangare-DevOpsCloud-Resume-v32.pdf"
+                    download
+                    className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors"
+                  >
+                    🚀 DevOps & Cloud Resume
+                  </a>
+                  <a
+                    href="/VaishnaviPangare-ML-DataSciemce -Resumev1.pdf"
+                    download
+                    className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors"
+                  >
+                    📊 ML / Data Science Resume
+                  </a>
+                </div>
               </div>
             </div>
 
