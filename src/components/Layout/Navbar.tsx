@@ -19,7 +19,7 @@ export const Navbar: React.FC = () => {
     }
     setIsMenuOpen(false);
   };
-  return <nav className="sticky top-0 z-50 bg-[#1de5b5e0]/80 dark:bg-[#129eb3c9]/90 backdrop-blur-md shadow-md">
+  return <nav className="sticky top-0 z-50 bg-[#1de5b5e0]/80 dark:bg-[#006064]/90 backdrop-blur-md shadow-md">
       <div className="container mx-auto px-4 py-3">
         <div className="flex justify-between items-center">
           <div className="flex items-center">
