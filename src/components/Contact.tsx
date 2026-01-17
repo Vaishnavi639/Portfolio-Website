@@ -67,15 +67,7 @@ export const Contact: React.FC = () => {
                 <div className="w-10 h-10 rounded-full bg-[#2563eb]/10 dark:bg-[#FF9900]/10 flex items-center justify-center mr-4">
                   <PhoneIcon size={18} className="text-[#2563eb] dark:text-[#FF9900]" />
                 </div>
-                <div>
-                  <p className="text-sm text-gray-500 dark:text-gray-400 mb-1">
-                    Phone
-                  </p>
-                  <a href="tel:+919607486905" className="text-gray-800 dark:text-white hover:text-[#2563eb] dark:hover:text-[#FF9900]">
-                    +91 9607486905
-                  </a>
-                </div>
-              </div>
+
               <div className="flex items-start">
                 <div className="w-10 h-10 rounded-full bg-[#2563eb]/10 dark:bg-[#FF9900]/10 flex items-center justify-center mr-4">
                   <MapPinIcon size={18} className="text-[#2563eb] dark:text-[#FF9900]" />
