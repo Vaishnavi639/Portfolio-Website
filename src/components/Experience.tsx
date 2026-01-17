@@ -1,29 +1,30 @@
 import React from 'react';
 import { BriefcaseIcon, CalendarIcon } from 'lucide-react';
 export const Experience: React.FC = () => {
+  
   const experiences = [{
+    company: 'Afto Dynamo',
+    position: 'DevOps Engineer',
+    period: 'Jul 2025 – Present',
+    description: 'Architected infrastructure modernization from monolithic VM to microservices on Azure.',
+    technologies: ['Azure', 'Docker', 'GitHub Actions', 'Elasticsearch', 'Python', 'Locust', 'Azure Monitor'],
+    achievements: [
+      'Modernized infrastructure to microservices architecture on Azure, reducing monthly cloud spend by 71% (from $3,000 to $859)',
+      'Engineered production CI/CD pipelines with GitHub Actions, reducing deployment time by 60% and achieving 95% uptime SLA',
+      'Implemented comprehensive observability using Azure Monitor and Application Insights with custom metrics and distributed tracing',
+      'Developed Python automation scripts for database migration and ETL pipeline processing 10K+ product records with AI-powered generation',
+      'Migrated Chatwoot service to containerized microservices, resolved SSO/CORS issues, and designed VNet-based security architecture'
+    ]
+  }, {
     company: 'Hosteze',
     position: 'Founding Member and DevOps Cloud Engineer',
     period: 'May 2023 – Nov 2024',
     description: 'Designed and deployed scalable AWS infrastructure for a student housing platform.',
-    technologies: ['AWS (S3, DynamoDB, Amplify, CloudWatch, IAM)', 'Docker', 'Terraform', 'GitHub Actions'],
+    technologies: ['AWS (S3, DynamoDB, Amplify, ECS, CloudWatch, IAM)', 'Docker', 'GitHub Actions'],
     achievements: [
-      'Architected cloud infrastructure to support roommate and room search functionality at scale',
-      'Containerized apps with Docker for environment consistency and ease of deployment',
-      'Built CI/CD pipelines to automate build, test, and deploy processes',
-      'Enabled centralized monitoring and logging with CloudWatch for high availability'
-    ]
-  }, {
-    company: 'Fiverr',
-    position: 'Cloud, DevOps & Data Consultant',
-    period: 'Mar 2025 – Present',
-    description: 'Delivering freelance solutions in cloud architecture, DevOps automation, and data visualization.',
-    technologies: ['AWS', 'GCP', 'Docker', 'Kubernetes', 'Power BI', 'Terraform', 'GitHub Actions'],
-    achievements: [
-      'Implemented cloud-native infrastructure for freelance clients',
-      'Built custom CI/CD workflows and automated deployment pipelines',
-      'Created Power BI dashboards for operational insights and decision-making',
-      'Provided cost optimization and reliability improvements through DevOps best practices'
+      'Architected and deployed AWS cloud infrastructure to support roommate and room search functionality at scale',
+      'Containerized applications using Docker and engineered streamlined CI/CD pipelines',
+      'Reduced operational overhead through automated deployment processes and infrastructure as code practices'
     ]
   }];
 
