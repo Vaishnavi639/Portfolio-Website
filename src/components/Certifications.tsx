@@ -23,11 +23,13 @@ export const Certifications: React.FC = () => {
     active: true,
     credlyUrl: 'https://www.credly.com/organizations/oracle/badges'
   }, {
-    name: 'AWS Solutions Architect',
+    name: 'AWS Certified AI Practitioner',
     issuer: 'Amazon Web Services',
-    date: 'In Progress',
+    date: 'Sept 2025 - Sept 2028',
     logo: 'aws',
-    active: false
+    active: true,
+    credlyUrl: 'https://www.credly.com/badges/dc68f93d-36ae-4642-92aa-cfcde1ce22cf/public_url'
+    
   }];
   return <section id="certifications" className="py-20 bg-gray-50 dark:bg-[#16213e]">
     <div className="container mx-auto px-4">
