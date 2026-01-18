@@ -25,7 +25,7 @@ export const Hero: React.FC = () => {
                 CERTIFICATION
               </div>
               <div className="text-sm font-medium mt-1" style={{ color: 'rgb(0 255 187)' }}>
-                Google Cloud Certified
+                AWS & Google Cloud Certified
               </div>
             </div>
             <div className="bg-white dark:bg-gray-800 p-3 rounded-lg shadow-sm">
@@ -41,7 +41,7 @@ export const Hero: React.FC = () => {
                 POSITION
               </div>
               <div className="text-sm font-medium mt-1" style={{ color: 'rgb(0 255 187)' }}>
-                Founding Member at Hosteze
+                DevOps Engineer @Afto
               </div>
             </div>
             <div className="bg-white dark:bg-gray-800 p-3 rounded-lg shadow-sm">
