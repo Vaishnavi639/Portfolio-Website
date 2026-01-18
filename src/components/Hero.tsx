@@ -69,14 +69,14 @@ export const Hero: React.FC = () => {
                     download
                     className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors"
                   >
-                    🚀 DevOps & Cloud Resume
+                     DevOps & Cloud Resume
                   </a>
                   <a
                     href="/VaishnaviPangare_Resume.pdf"
                     download
                     className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors"
                   >
-                    📊 ML / Data Science Resume
+                     ML / Data Science Resume
                   </a>
                 </div>
               </div>
