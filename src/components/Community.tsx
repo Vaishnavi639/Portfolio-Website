@@ -4,7 +4,7 @@ export const Community: React.FC = () => {
   const communityRoles = [{
     role: 'Cloud Lead',
     organization: 'Google Developers Group, AISSMS IOIT',
-    period: 'Sept 2024 – Present',
+    period: 'Sept 2024 – Sept 2025',
     description: 'Leading cloud-focused workshops, organizing hands-on labs, and mentoring students on Google Cloud technologies.'
   }, {
     role: 'Volunteer',
